@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="applicationName" xml:space="preserve">
+    <value>PDF-Serienbrief-Mailer</value>
+  </data>
+  <data name="btnPdfChooseFile" xml:space="preserve">
+    <value>Wählen Sie eine PDF-Datei aus.</value>
+  </data>
+  <data name="btnPdfFileSelect" xml:space="preserve">
+    <value>Noch keine PDF-Datei ausgewählt.</value>
+  </data>
+  <data name="btnPdfFileSelected_InappropriateSuffix" xml:space="preserve">
+    <value>Sie haben keine PDF-Datei gewählt.</value>
+  </data>
+  <data name="btnPdfFileSelected_InappropriateSuffixLog" xml:space="preserve">
+    <value>Fehler: Die gewählte Datei ist keine PDF-Datei. Die Dateiendung muss lauten: *.pdf oder *.PDF")</value>
+  </data>
+  <data name="btnPdfFileSelected_NotReadable" xml:space="preserve">
+    <value>Keine Datei gewählt oder nicht lesbar. Geschützte Datei?</value>
+  </data>
+  <data name="btnPdfFileSelected_NotReadableLog" xml:space="preserve">
+    <value>Fehler: Ist sie geschützt? Lässt sich die Datei überhaupt an einen Drucker senden? Stichwort: DRM. Ein möglicher Grund kann sein, dass die Datei in irgendeiner Form geschützt ist. Das gilt beispielsweise oft für eBooks. Denkbar ist weiterhin, dass zwar die Dateiendung eine PDF-Datei behauptet, der tatsächliche Typ aber abweicht.In jedem Fall kann diese Datei nicht verarbeitet werden.Lässt sich die Datei mit einem PDF-drucken? Wenn ja, dann kehren Sie mit dem PDF-Druck hierher zurück.</value>
+  </data>
+  <data name="btnPdfFileSelected_Ok" xml:space="preserve">
+    <value> E-Mail-Adresse(n). Siehe Protokoll.</value>
+  </data>
+  <data name="btnPdfFileSelected_OkLog" xml:space="preserve">
+    <value>Erfolg: Es wurde eine PDF-Datei erfolgreich eingelesen.</value>
+  </data>
+  <data name="btnSendMailsPause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="btnSendMailsSend" xml:space="preserve">
+    <value>Senden!</value>
+  </data>
+  <data name="btnSendMails_Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="btnSendMails_Send" xml:space="preserve">
+    <value>E-Mails senden!</value>
+  </data>
+  <data name="btnSendMails_SendAgain" xml:space="preserve">
+    <value>Erneut senden!</value>
+  </data>
+  <data name="btnShowLog" xml:space="preserve">
+    <value>Protokoll anzeigen.</value>
+  </data>
+  <data name="csvFiles" xml:space="preserve">
+    <value>CSV-Dateien</value>
+  </data>
+  <data name="CsvHeadlineMissing" xml:space="preserve">
+    <value>Es fehlt eine Kopfzeile in der CSV-Datei...</value>
+  </data>
+  <data name="formTitle" xml:space="preserve">
+    <value>PDF-Serienbrief-Mailer</value>
+  </data>
+  <data name="groupBoxMail" xml:space="preserve">
+    <value>Anschreiben</value>
+  </data>
+  <data name="groupBoxPdf" xml:space="preserve">
+    <value>PDF-Datei für Serienbriefversand.</value>
+  </data>
+  <data name="InterruptCsvReading" xml:space="preserve">
+    <value>Abbruch in Zeile</value>
+  </data>
+  <data name="lblBody" xml:space="preserve">
+    <value>Nachricht</value>
+  </data>
+  <data name="lblEmailSuccessNext" xml:space="preserve">
+    <value>Jetzt müssen Sie noch eine PDF-Datei wählen ...</value>
+  </data>
+  <data name="lblEmailTestmailSuccess" xml:space="preserve">
+    <value>Test-E-Mail an Sie selbst erfolgreich.</value>
+  </data>
+  <data name="lblEmailTestmailSuccessLog" xml:space="preserve">
+    <value>Testmail erfolgreich gesendet.</value>
+  </data>
+  <data name="lblMailBodyEmpty" xml:space="preserve">
+    <value>Die Nachricht darf nicht leer sein.</value>
+  </data>
+  <data name="lblMailSubjectEmpty" xml:space="preserve">
+    <value>Geben Sie einen Betreff ein.</value>
+  </data>
+  <data name="lblSmptConfigureSmtp" xml:space="preserve">
+    <value>SMTP-Server konfigurieren.</value>
+  </data>
+  <data name="lblSubject" xml:space="preserve">
+    <value>Betreff</value>
+  </data>
+  <data name="MailDefaultBody" xml:space="preserve">
+    <value>Hallo [[Alias1]] [[Alias2]],\n...</value>
+  </data>
+  <data name="MailDefaultSubject" xml:space="preserve">
+    <value>Nachricht für [[Alias1]]</value>
+  </data>
+  <data name="pdfFiles" xml:space="preserve">
+    <value>PDF-Dateien</value>
+  </data>
+  <data name="row" xml:space="preserve">
+    <value>Zeile</value>
+  </data>
+  <data name="rowErrorMissingEmail" xml:space="preserve">
+    <value>muss mit einer E-Mail beginnen.</value>
+  </data>
+  <data name="smtpConfigurationNotOk" xml:space="preserve">
+    <value>Mailserverkonfiguration noch nicht ok.</value>
+  </data>
+  <data name="smtpIncomplete" xml:space="preserve">
+    <value>SMTP-Server Einstellungen unvollständig.</value>
+  </data>
+  <data name="SmtpPortNotOk" xml:space="preserve">
+    <value>Bitte nur (maximal fünf) Ziffern eingeben.</value>
+  </data>
+  <data name="SmtpPortNotOkLog" xml:space="preserve">
+    <value>Falsche Portnummer eingegeben. Die Portnummer darf nur aus Ziffern bestehen. Typische Werte sind 25, 465, ...</value>
+  </data>
+  <data name="SmtpUserMailNotOk" xml:space="preserve">
+    <value>Geben Sie eine vollständige E-Mail ein.</value>
+  </data>
+  <data name="testmailBody" xml:space="preserve">
+    <value>Wenn Sie diese E-Mail sehen, haben Sie den SMTP-Server erfolgreich konfiguriert..</value>
+  </data>
+  <data name="testmailError" xml:space="preserve">
+    <value>Testmail konnte nicht gesendet werden: </value>
+  </data>
+  <data name="testmailFirewallClosed" xml:space="preserve">
+    <value>Ist der Firewallport geöffnet?</value>
+  </data>
+  <data name="testmailPasswordWrong" xml:space="preserve">
+    <value>Passworteingabe unvollständig? Tippfehler?</value>
+  </data>
+  <data name="testmailSubject" xml:space="preserve">
+    <value>Test-E-Mail des Serienbrief-Senders</value>
+  </data>
+  <data name="UploadCsv" xml:space="preserve">
+    <value>Platzhalter gefunden. Laden Sie eine passende CSV-Datei.</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Willkommen zum PDF-Serienbrief-Mailer</value>
+  </data>
+  <data name="attachment" xml:space="preserve">
+    <value>Anhang</value>
+  </data>
+  <data name="attachments" xml:space="preserve">
+    <value>Anhänge</value>
+  </data>
+  <data name="btnCsvSuccess" xml:space="preserve">
+    <value>CSV-Datei erfolgreich eingelesen.</value>
+  </data>
+  <data name="btnCsvUlpodFile" xml:space="preserve">
+    <value>Laden Sie eine CSV-Datei hoch.</value>
+  </data>
+  <data name="btnPdfFileSelected_EmptySelection" xml:space="preserve">
+    <value>Sie haben nichts gewählt.</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Datei(en)</value>
+  </data>
+  <data name="LastMessageInOutboxReechedGoBack" xml:space="preserve">
+    <value>Letzte Nachricht erreicht. Blättern Sie zurück.</value>
+  </data>
+  <data name="multiplePdfFilesSelected" xml:space="preserve">
+    <value>Mehrfachauswahl</value>
+  </data>
+  <data name="NoMailAddress" xml:space="preserve">
+    <value>Keine Adresse gefunden. Evtl. ist die Datei nicht lesbar.</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>Nr.</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>Seite(n)</value>
+  </data>
+  <data name="pdfFileBrowseInstruction" xml:space="preserve">
+    <value>Blättern Sie durch den Postausgang.</value>
+  </data>
+  <data name="btnCSV_SelectFile" xml:space="preserve">
+    <value>Wählen Sie eine CSV-Datei.</value>
+  </data>
+  <data name="groupBox4ChooseCsvFile" xml:space="preserve">
+    <value>Wählen Sie eine CSV-Datei (optional).</value>
+  </data>
+  <data name="lblMailComposeMail" xml:space="preserve">
+    <value>Formulieren Sie ein Anschreiben. (Optional mit Platzhaltern)</value>
+  </data>
+</root>
